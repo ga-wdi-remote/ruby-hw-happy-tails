@@ -6,9 +6,9 @@
 
 ## Exercise Objectives:
 
-:ballot_box_with_check: gain practice defining object properties and methods
-:ballot_box_with_check: gain practice accessing object's properties with getter methods
-:ballot_box_with_check: gain experience with `initialize` method
+* gain practice defining object properties and methods
+* gain practice accessing object's properties with getter methods
+* gain experience with `initialize` method
 
 ## Setup:
 
@@ -105,6 +105,7 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
 - Add options to the menu so that a user can:
 	- Facilitate client adopts an animal. This means the client now has the animal and they should no longer be a part of the shelter.
 	- Facilitate client puts an animal up for adoption. This means the client no longer has the animal and it should be added to the shelter.
+  - :dart: Commit -m "Part 4: Added More Options"
 
 <hr>
 
@@ -112,6 +113,7 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
 
 - `seed.rb` initializes a shelter as well as a few animals and clients so you have some data to start with when you run your program.
 - Require your seed file in your `main.rb` file. Your seed file will instantiate all your objects. You should no longer have `Client.new()` or `Shelter.new()` anywhere in your `main.rb` file. All object instantiations should be in `seed.rb`
+- :dart: Commit -m "Part 5: Added seed data"
 
 <hr>
 
@@ -125,6 +127,7 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
 - Add further options to the menu so that a user can:
 	- Display all puppies
 	- Display all kittens
+- :dart: Commit -m "Part 6: Puppies and Kittens"
 
 <hr>
 
@@ -132,12 +135,16 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
 - Limit the number of animals a client can adopt to 2 per client. If they try to adopt more than that, yell at them.
 - Refactor your code to have `attr_reader`'s and `attr_writer`'s. HINT : `attr_accessor` is both of them in one
 - Refactor your code to make sure it is DRY (Don't Repeat Yourself) and all your methods are in the appropriate classes.
+- :dart: Commit -m "Part 7: limited 2 adoptions"
 
 <hr>
 
 ### Reach #3
 
 - Add a new class that inherits from your client class called CatLady. A cat lady only takes cats, and takes as many cats as there is space in a computer's memory.
+- :dart: Commit -m "Part 8: cat lady class"
+
+<hr>
 
 ## Submitting Your Work
 

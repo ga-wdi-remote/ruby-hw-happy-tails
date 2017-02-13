@@ -10,6 +10,8 @@ require_relative 'models/client'
 require_relative 'models/animal'
 require 'pry'
 
+@shelter = Shelter.new('MyShelter')
+
 def menu
   puts `clear`
   puts "*** HappiTails Animal Shelter ***\n\n"
@@ -33,20 +35,46 @@ def create_animal
   species = gets.chomp
   print "Toys: "
   toys = gets.chomp.split
-  puts "Is it one of the folling?"
-  puts "1: puppy"
-  puts "2: kitten"
-  puppy_or_kitten = gets.chomp
 
-  @shelter.animals[name] = if puppy_or_kitten == "1"
-                             Puppy.new(name, species)
-                           elsif puppy_or_kitten == "2"
-                             Kitten.new(name, species)
-                           else
-                             Animal.new(name, species)
-                           end
-  @shelter.animals[name].toys = toys
+  # @animal = Animal.new(name, species)
+  # puts "Is it one of the following?"
+  # puts "1: puppy"
+  # puts "2: kitten"
+  # puts "3: neither"
+  # puppy_or_kitten = gets.chomp
+  # @shelter.animals[name] = if puppy_or_kitten == "1"
+  #                            Puppy.new(name, species)
+  #                          elsif puppy_or_kitten == "2"
+  #                            Kitten.new(name, species)
+  #                          else
+  #                            Animal.new(name, species)
+  #                          end
+  @shelter.animals[name] = Animal.new(name, species)
+  # @shelter.animals[name].toys = toys
+  binding.pry
+
+  #
+  #
+  #
+  #
+  #
+  #
+  # (Run pry and check!)
+  #
+  #
+  #
+  #
+  #
+
+
 end
+
+#
+#
+#
+#
+#
+
 
 def create_client
   print "Name: "

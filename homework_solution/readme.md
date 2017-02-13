@@ -96,7 +96,10 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
 - Add options to the menu so that a user can:
 	- 3: Display all animals
 	- 4: Display all clients
-- :dart: Commit -m "Part 3: displayed animals and clients"
+  - :dart: Commit -m "Part 3: displayed animals and clients"
+
+##### Example of Part 2 + 3 Working:
+  ![gif](images/happytails.gif)
 
 <hr>
 
@@ -105,7 +108,7 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
 - Add options to the menu so that a user can:
 	- Facilitate client adopts an animal. This means the client now has the animal and they should no longer be a part of the shelter.
 	- Facilitate client puts an animal up for adoption. This means the client no longer has the animal and it should be added to the shelter.
-- :dart: Commit -m "Part 4: Added More Options"
+  - :dart: Commit -m "Part 4: Added More Options"
 
 <hr>
 

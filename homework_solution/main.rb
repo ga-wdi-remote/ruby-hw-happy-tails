@@ -51,29 +51,7 @@ def create_animal
   #                          end
   @shelter.animals[name] = Animal.new(name, species)
   # @shelter.animals[name].toys = toys
-  binding.pry
-
-  #
-  #
-  #
-  #
-  #
-  #
-  # (Run pry and check!)
-  #
-  #
-  #
-  #
-  #
-
-
 end
-
-#
-#
-#
-#
-#
 
 
 def create_client

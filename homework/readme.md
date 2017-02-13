@@ -88,9 +88,6 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
   - The while statement is dependent on the response, so write a `case` for the response. Think: when `1`, fire the `create_animal` function.
 </details>
 
-##### Example of Part 2 Working:
-![gif](images/happytails.gif)
-
 - :dart: Commit -m "Part 2: created new animal and client"
 <hr>
 
@@ -101,6 +98,9 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
 	- 4: Display all clients
   - :dart: Commit -m "Part 3: displayed animals and clients"
 
+##### Example of Part 2 + 3 Working:
+  ![gif](images/happytails.gif)
+  
 <hr>
 
 ### Part 4: More Menu Options

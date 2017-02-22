@@ -94,8 +94,8 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
 ### Part 3: Display Animals and Clients
 
 - Add options to the menu so that a user can:
-	- 3: Display all animals
-	- 4: Display all clients
+	- 3: Display all animals on a new line. (ie "Snoopy is a Beagle that loves")
+	- 4: Display all clients on a new line. (ie "Christine is a 90 year old with 200 pets")
   - :dart: Commit -m "Part 3: displayed animals and clients"
 
 ##### Example of Part 2 + 3 Working:
@@ -106,8 +106,8 @@ For Part 2, the first thing we should work on is getting the menu screen to rend
 ### Part 4: More Menu Options
 
 - Add options to the menu so that a user can:
-	- Facilitate client adopts an animal. This means the client now has the animal and they should no longer be a part of the shelter.
-	- Facilitate client puts an animal up for adoption. This means the client no longer has the animal and it should be added to the shelter.
+	- Adopt an animal. This means the client now has the animal and they should no longer be a part of the shelter.
+	- Return Animal. This means the client no longer has the animal and it should be added back to the shelter.
   - :dart: Commit -m "Part 4: Added More Options"
 
 <hr>
